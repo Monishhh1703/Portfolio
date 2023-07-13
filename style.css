@@ -1,0 +1,172 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  transition: color 0.3s;
+  color: #fff; /* Add this line to make the links always visible */
+}
+
+header nav ul li a:hover {
+  color: #999;
+}
+/* Intro section */
+#intro {
+  background-color: #f1f1f1;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.intro-text p {
+  font-size: 18px;
+}
+
+.profile-picture img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Skills section */
+#skills {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#skills ul li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+/* Education section */
+#education {
+  background-color: #f1f1f1;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#education ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#education ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Projects section */
+#projects {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+#projects ul {
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* Contact section */
+#contact {
+  background-color: #f1f1f1;
+  padding: 60px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+#contact ul {
+  text-align: left;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
